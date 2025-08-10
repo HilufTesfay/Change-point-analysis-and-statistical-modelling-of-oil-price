@@ -1,0 +1,23 @@
+2025-08-10 15:12:39,543 - src.data.analysis - INFO - Data loaded successfully from /home/hill/Downloads/kIEM/projects/week-10/data/raw/BrentOilPrices.csv
+2025-08-10 15:12:39,546 - src.data.analysis - INFO - Finished loading data from /home/hill/Downloads/kIEM/projects/week-10/data/raw/BrentOilPrices.csv
+2025-08-10 15:12:39,591 - src.data.analysis - INFO - Performing initial EDA.
+2025-08-10 15:12:39,595 - src.data.analysis - INFO - DataFrame shape: (9011, 2)
+2025-08-10 15:12:39,600 - src.data.analysis - INFO - Columns: ['Date', 'Price']
+2025-08-10 15:12:39,602 - src.data.analysis - INFO - Summary statistics:
+2025-08-10 15:12:39,620 - src.data.analysis - INFO -              Price
+count  9011.000000
+mean     48.420782
+std      32.860110
+min       9.100000
+25%      19.050000
+50%      38.570000
+75%      70.090000
+max     143.950000
+2025-08-10 15:12:39,641 - src.data.analysis - INFO - First few rows of the DataFrame:
+2025-08-10 15:12:39,645 - src.data.analysis - INFO -         Date  Price
+0  20-May-87  18.63
+1  21-May-87  18.45
+2  22-May-87  18.55
+3  25-May-87  18.60
+4  26-May-87  18.63
+2025-08-10 15:12:39,664 - src.data.analysis - INFO - Initial EDA completed.
