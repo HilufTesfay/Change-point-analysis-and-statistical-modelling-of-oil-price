@@ -1,50 +1,7 @@
-2025-08-10 15:12:39,543 - src.data.analysis - INFO - Data loaded successfully from /home/hill/Downloads/kIEM/projects/week-10/data/raw/BrentOilPrices.csv
-2025-08-10 15:12:39,546 - src.data.analysis - INFO - Finished loading data from /home/hill/Downloads/kIEM/projects/week-10/data/raw/BrentOilPrices.csv
-2025-08-10 15:12:39,591 - src.data.analysis - INFO - Performing initial EDA.
-2025-08-10 15:12:39,595 - src.data.analysis - INFO - DataFrame shape: (9011, 2)
-2025-08-10 15:12:39,600 - src.data.analysis - INFO - Columns: ['Date', 'Price']
-2025-08-10 15:12:39,602 - src.data.analysis - INFO - Summary statistics:
-2025-08-10 15:12:39,620 - src.data.analysis - INFO -              Price
-count  9011.000000
-mean     48.420782
-std      32.860110
-min       9.100000
-25%      19.050000
-50%      38.570000
-75%      70.090000
-max     143.950000
-2025-08-10 15:12:39,641 - src.data.analysis - INFO - First few rows of the DataFrame:
-2025-08-10 15:12:39,645 - src.data.analysis - INFO -         Date  Price
-0  20-May-87  18.63
-1  21-May-87  18.45
-2  22-May-87  18.55
-3  25-May-87  18.60
-4  26-May-87  18.63
-2025-08-10 15:12:39,664 - src.data.analysis - INFO - Initial EDA completed.
-2025-08-10 15:20:05,472 - src.data.analysis - INFO - Data loaded successfully from /home/hill/Downloads/kIEM/projects/week-10/data/raw/BrentOilPrices.csv
-2025-08-10 15:20:05,475 - src.data.analysis - INFO - Finished loading data from /home/hill/Downloads/kIEM/projects/week-10/data/raw/BrentOilPrices.csv
-2025-08-10 15:20:05,515 - src.data.analysis - INFO - Performing initial EDA.
-2025-08-10 15:20:05,521 - src.data.analysis - INFO - DataFrame shape: (9011, 2)
-2025-08-10 15:20:05,527 - src.data.analysis - INFO - Columns: ['Date', 'Price']
-2025-08-10 15:20:05,531 - src.data.analysis - INFO - Summary statistics:
-2025-08-10 15:20:05,549 - src.data.analysis - INFO -              Price
-count  9011.000000
-mean     48.420782
-std      32.860110
-min       9.100000
-25%      19.050000
-50%      38.570000
-75%      70.090000
-max     143.950000
-2025-08-10 15:20:05,557 - src.data.analysis - INFO - First few rows of the DataFrame:
-2025-08-10 15:20:05,558 - src.data.analysis - INFO -         Date  Price
-0  20-May-87  18.63
-1  21-May-87  18.45
-2  22-May-87  18.55
-3  25-May-87  18.60
-4  26-May-87  18.63
-2025-08-10 15:20:05,566 - src.data.analysis - INFO - Initial EDA completed.
-2025-08-10 15:20:05,668 - src.data.analysis - INFO - Starting data cleaning process.
-2025-08-10 15:20:05,671 - src.data.analysis - INFO - Initial data shape: (9011, 2)
-2025-08-10 15:20:05,681 - src.data.analysis - INFO - Data cleaned: (9011, 2) -> (9011, 2)
-2025-08-10 15:20:05,719 - __main__ - INFO - Data cleaned and saved successfully.
+2025-08-10 16:59:15,751 - __main__ - INFO - Starting the main script.
+2025-08-10 16:59:15,758 - src.data.analysis - INFO - Data loaded successfully from /home/hill/Downloads/kIEM/projects/week-10/data/processed/BrentOilPrices_cleaned.csv
+2025-08-10 16:59:15,758 - src.data.analysis - INFO - Finished loading data from /home/hill/Downloads/kIEM/projects/week-10/data/processed/BrentOilPrices_cleaned.csv
+2025-08-10 16:59:16,989 - pymc.sampling.mcmc - INFO - Sequential sampling (2 chains in 1 job)
+2025-08-10 16:59:16,989 - pymc.sampling.mcmc - INFO - CompoundStep
+2025-08-10 16:59:16,989 - pymc.sampling.mcmc - INFO - >Metropolis: [tau]
+2025-08-10 16:59:16,990 - pymc.sampling.mcmc - INFO - >NUTS: [mu1, mu2, sigma]

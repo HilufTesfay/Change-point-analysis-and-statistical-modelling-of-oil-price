@@ -26,12 +26,16 @@ def clean_data(df: pd.DataFrame) -> pd.DataFrame:
     
     logger.info("Starting data cleaning process.")
     logger.info(f"Initial data shape: {df.shape}")
+    try:
+        df_cleaned = df.dropna().drop_duplicates()
+        final_shape = df_cleaned.shape
+        df_cleaned["Date"]=pd.to_datetime(df['Date'], format='mixed')
 
-    df_cleaned = df.dropna().drop_duplicates()
-    final_shape = df_cleaned.shape
-    
-    logger.info(f"Data cleaned: {df.shape} -> {final_shape}")
-    return df_cleaned
+        logger.info(f"Data cleaned: {df.shape} -> {final_shape}")
+        return df_cleaned
+    except Exception as e:
+        logger.error(f"error cleaning data {e}")
+
 
 def perform_initial_eda(df: pd.DataFrame) -> None:
     """Performs initial exploratory data analysis on the DataFrame."""
